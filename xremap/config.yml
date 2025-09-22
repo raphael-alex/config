@@ -1,0 +1,31 @@
+modmap:
+  - name: Global Modifies
+    remap:
+      CapsLock: Ctrl_L
+      Ctrl_L: CapsLock
+    device:
+      only:
+        [
+          "Keychron K8 Keychron K8",
+          "Keychron K8",
+          "AT Translated Set 2 keyboard",
+        ]
+keymap:
+  - name: custom
+    remap:
+      C-i: up
+      C-k: down
+      C-j: left
+      C-l: right
+      C-y: home
+      C-u: end
+      C-apostrophe: Delete
+      C-semicolon: backspace
+      C-Space: Enter
+    device:
+      only:
+        [
+          "Keychron K8 Keychron K8",
+          "Keychron K8",
+          "AT Translated Set 2 keyboard",
+        ]

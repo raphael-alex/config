@@ -1,0 +1,1 @@
+sudo xremap --watch=config --device 'AT Translated Set 2 keyboard' --device 'Keychron K8 Keychron K8' /home/rah/.config/xremap/config.yml   

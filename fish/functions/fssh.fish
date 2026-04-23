@@ -151,6 +151,6 @@ $insert_text" ~/.ssh/config > ~/.ssh/config.tmp
             test -n "$host"; and ssh "$host"
 
         case '-h'
-            echo "Usage: fssh [ -a: add new config | -c: ssh-copy-id | -e: edit | -d: delete | -h: help ]"
+            echo "Usage: fssh [ -a: add new config | -e: edit | -d: delete | -h: help ]"
     end
 end
